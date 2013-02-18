@@ -1,0 +1,13 @@
+<web-app>
+	
+	<servlet>
+		<servlet-name>ServletEJB_EBEx</servlet-name>
+		<servlet-class>com.ratan.controllers.TestEJBE</servlet-class>		
+	</servlet>
+		
+	<servlet-mapping>
+		<servlet-name>ServletEJB_EBEx</servlet-name>
+		<url-pattern>/ejbEntityBean</url-pattern>
+	</servlet-mapping>
+		
+</web-app> 
